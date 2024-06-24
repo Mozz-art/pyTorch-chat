@@ -1,0 +1,149 @@
+{
+  "intents": [
+    {
+      "tag": "saudação",
+      "patterns": [
+        "Oi",
+        "Ei",
+        "Eai",
+        "Como você está",
+        "Tudo bem?",
+        "Tem alguém aí?",
+        "Olá",
+        "Ola",
+        "Bom dia"
+      ],
+      "responses": [
+        "Ei :-)",
+        "Olá, obrigado por visitar",
+        "Oi, o que posso fazer por você?",
+        "Oi, como posso ajudar?",
+        "Oi, tudo bem com você?",
+        "Bom dia! Como posso ser útil?",
+        "Olá! É um prazer ajudar.",
+        "Oi! Estou aqui para responder suas perguntas.",
+        "Olá! Como posso tornar seu dia melhor?",
+        "Oi, tudo bem? Estou disponível para ajudar.",
+        "Bom dia! Estou pronto para ajudar no que você precisar.",
+        "Oi! Como posso facilitar sua experiência hoje?"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["Tchau", "Até logo", "Adeus"],
+      "responses": [
+        "Até logo, obrigado por visitar",
+        "Tenha um bom dia",
+        "Tchau! Volte logo.",
+        "Até logo! Estou aqui se precisar de algo mais.",
+        "Tenha um dia maravilhoso!",
+        "Até breve! Espero vê-lo novamente em breve.",
+        "Tchau! Fico feliz em ajudar.",
+        "Tenha um ótimo dia! Até a próxima.",
+        "Até mais tarde! Sempre estou por aqui.",
+        "Até logo! Se precisar, estarei por aqui.",
+        "Tchau! Fico à disposição para futuras consultas."
+      ]
+    },
+    {
+      "tag": "agradecimento",
+      "patterns": ["Obrigado", "Obrigada", "Isso é útil", "Muito obrigado!"],
+      "responses": [
+        "Feliz em ajudar!",
+        "A qualquer momento!",
+        "É um prazer",
+        "De nada!",
+        "Sempre à disposição!",
+        "O prazer foi meu!",
+        "Estou aqui para isso!",
+        "Não há de quê!",
+        "Fico feliz em ser útil!",
+        "Obrigado por confiar em nós!",
+        "Sempre que precisar, estarei aqui!",
+        "Eu que agradeço por sua confiança!"
+      ]
+    },
+    {
+      "tag": "itens",
+      "patterns": [
+        "Quais itens você tem?",
+        "Que tipos de itens existem?",
+        "O que você vende?"
+      ],
+      "responses": [
+        "Nós vendemos café e chá",
+        "Nós temos café e chá",
+        "Oferecemos café e chá em nossa loja",
+        "Em nosso estoque, temos café e chá disponíveis",
+        "Temos uma variedade de café e chá para escolher",
+        "Oferecemos café e chá de alta qualidade",
+        "Nossos produtos incluem café e chá frescos",
+        "Temos uma seleção de café e chá exclusivos",
+        "Nossos itens incluem café e chá gourmet",
+        "Você encontrará uma variedade de café e chá em nosso catálogo",
+        "Nós nos orgulhamos de nossos cafés e chás de origem única"
+      ]
+    },
+    {
+      "tag": "pagamentos",
+      "patterns": [
+        "Você aceita cartões de crédito?",
+        "Você aceita Mastercard?",
+        "Posso pagar com Paypal?",
+        "Vocês aceitam somente dinheiro?"
+      ],
+      "responses": [
+        "Nós aceitamos VISA, Mastercard e Paypal",
+        "Aceitamos a maioria dos principais cartões de crédito e Paypal",
+        "Você pode pagar com VISA, Mastercard ou Paypal",
+        "Aceitamos várias formas de pagamento, incluindo cartões de crédito e Paypal",
+        "Sim, aceitamos pagamentos com cartões de crédito",
+        "Aceitamos todos os principais cartões de crédito",
+        "Você pode usar seu Mastercard para fazer o pagamento",
+        "Sim, Paypal é uma opção de pagamento válida",
+        "Nós aceitamos pagamentos em dinheiro e cartão",
+        "Aceitamos pagamentos em várias moedas"
+      ]
+    },
+    {
+      "tag": "entrega",
+      "patterns": [
+        "Quanto tempo demora a entrega?",
+        "Quanto tempo demora o envio?",
+        "Quando recebo minha entrega?"
+      ],
+      "responses": [
+        "A entrega leva de 2 a 4 dias",
+        "O envio leva de 2 a 4 dias",
+        "Normalmente, a entrega é feita em 2 a 4 dias úteis",
+        "Você deve receber sua entrega dentro de 2 a 4 dias úteis",
+        "Nossa equipe de logística entrega em 2 a 4 dias",
+        "O prazo de entrega é de 2 a 4 dias úteis após o processamento",
+        "O envio é rápido, levando apenas 2 a 4 dias úteis",
+        "Oferecemos envio expresso para entregas mais rápidas",
+        "Você pode acompanhar sua entrega online",
+        "Nossa entrega é segura e confiável"
+      ]
+    },
+    {
+      "tag": "engraçado",
+      "patterns": [
+        "Me conte uma piada!",
+        "Me conte algo engraçado!",
+        "Você conhece uma piada?"
+      ],
+      "responses": [
+        "Por que o hipster queimou a boca? Ele tomou o café antes de esfriar.",
+        "O que o búfalo disse quando seu filho saiu para a faculdade? Bison.",
+        "Por que a galinha atravessou a rua? Para chegar ao outro lado!",
+        "Qual é o doce favorito de um programador? Byte de chocolate!",
+        "O que um astronauta faz quando está com raiva? Ele conta até 3...2...1... e se acalma no espaço!",
+        "Por que o computador foi ao médico? Porque estava com vírus!",
+        "O que o celular disse para o carregador? Você me deixa carregado!",
+        "Por que o livro de matemática ficou tão triste? Porque tinha muitos problemas!",
+        "O que o café falou para a xícara? Você me deixa tão quente!",
+        "Qual é o animal mais limpo? O porco-espinho, porque sempre está tomando banho!"
+      ]
+    }
+  ]
+}
